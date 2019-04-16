@@ -1,0 +1,206 @@
+
+body {
+
+	background-color: #343a40;
+	color: #FFF;
+}
+
+
+.navbar {
+
+	border-bottom-style: solid;
+	border-width: 2px;
+	color:#2E3338;
+}
+
+.jumbotron {
+
+	background-color: #2E3338;
+	border-radius: 0;
+}
+
+
+#wrapper {
+
+	padding: 1% 5% 10% 5%;
+}
+.container-fluid {
+
+padding-left: 0;
+padding-right: 0;
+
+}
+
+
+ #hero {
+
+text-align:center;
+z-index:10;
+
+}
+
+#section-head {
+
+	border-bottom-style: solid;
+	border-width: 3px;
+	color: #FFF;
+	padding-top: 5%;
+
+}
+
+#project-container {
+
+	padding-top: 1rem;
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-color: grey;
+	
+
+}
+
+#project-content-row {
+
+	padding-bottom: 4rem;
+	padding-top: 4rem;
+}
+
+#project-content-text {
+
+	text-align: left; 
+	padding-top: 2rem;
+}
+
+
+#buttons {
+
+	margin-top: 1rem; 
+	
+
+}
+
+#bio-skills-container {
+
+	padding-top: 1%;
+	padding-bottom: 3%;
+}
+
+#inset-text {
+
+	padding: 5% 5% 5% 5%;
+}
+
+#skills {
+
+margin-top: 5px;
+color: #FFF;
+	
+}
+
+#bio-skills-head {
+
+	border-bottom-style: solid;
+	border-width: 3px;
+	color: #FFF;
+	
+}
+
+#bio-skills-head-spacer {
+
+	padding-top: 5%;
+}
+
+#attribution {
+
+	background-color:#2E3338; 
+	color:white;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#jumbo-center{
+	 display: flex;
+    justify-content: center;
+    align-items: center;
+    height:350px;
+}
+
+
+@media(min-width:576px){
+
+	#jumbo-center {
+
+		height:350px;
+	}
+
+	#project-content-row {
+
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	#bio-skills-container {
+
+		padding-top:5%;
+	}
+
+}
+@media(min-width:768px){
+
+	#jumbo-center {
+
+		height:350px;
+	}
+	
+	#project-content-text {
+
+		padding-top: 0rem;
+	}
+
+	#buttons {
+
+		margin-top: .5rem;
+	}
+
+	#bio-skills-container {
+
+		padding-top:3%;
+	}
+
+	#wrapper {
+
+		padding-bottom:5%;
+	}
+}
+@media(min-width:992px){
+
+	#jumbo-center {
+
+		height:375px;
+	}
+
+	#project-content-text {
+
+		padding-top: .5rem;
+	}
+}
+
+@media(min-width:1200px){
+
+	#jumbo-center {
+
+		height:400px;
+	}
+
+	#project-content-text {
+
+		padding-top: 1.50rem;
+	}
+
+	#wrapper {
+
+		padding-bottom:3%;
+	}
+}
+
